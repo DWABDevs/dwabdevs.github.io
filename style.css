@@ -1,3 +1,49 @@
-.titleBar{
+
+
+:root{
+    --background-color: rgb(74, 74, 74);
+    --titlebar-color: rgb(36, 36, 36);
+    --titlebar-color-light: rgb(50, 50, 50);
+    --titlebar-color-dark: rgb(28, 28, 28);
+}
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: var(--background-color);
     
+}
+
+
+.titlebar{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    background-color: var(--titlebar-color);
+    font-size: x-large;
+    justify-content: flex-end;
+    cursor: default;
+    user-select: none;
+}
+
+.titlebar div{
+    justify-content: center center;
+    padding: 1em;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titlebarTab{
+    float: right;
+    
+    
+}
+
+.titlebarTab:hover{
+    background-color: var(--titlebar-color-dark);
+}
+
+.logo{
+    margin-right: auto;
 }
