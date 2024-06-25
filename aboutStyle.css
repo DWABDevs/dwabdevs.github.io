@@ -14,11 +14,23 @@
 
 }
 
+#header{
+    font-size: 300%;
+    margin-top: 1em;
+}
+
+
+#name{
+    font-size: 200%;
+    font-style: bold;
+}
+
 
 #aboutParent{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around
+    justify-content: space-around;
+    margin-top: 2em;
 }
 
 #aboutContainer{
