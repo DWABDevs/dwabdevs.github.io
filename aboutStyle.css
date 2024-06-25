@@ -10,7 +10,7 @@
     width: max(10em, 60%);
     margin: auto;
 
-    font-size: min(1vw, small);
+    font-size: min(2vw, 15px);
 
 }
 
@@ -18,7 +18,7 @@
 #aboutParent{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around
 }
 
 #aboutContainer{
