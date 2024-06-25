@@ -21,7 +21,7 @@ body{
     margin: 0;
     display: flex;
     background-color: var(--titlebar-color);
-    font-size: calc(2px + 1.5vw);
+    font-size: calc(5px + 1.2vw);
     justify-content: flex-end;
     cursor: pointer;
     user-select: none;
