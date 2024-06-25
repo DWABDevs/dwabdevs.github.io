@@ -23,15 +23,17 @@ body{
     background-color: var(--titlebar-color);
     font-size: x-large;
     justify-content: flex-end;
-    cursor: default;
+    cursor: pointer;
     user-select: none;
 }
 
-.titlebar div{
+.titlebar a{
     justify-content: center center;
     padding: 1em;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
 }
 
 .titlebarTab{
