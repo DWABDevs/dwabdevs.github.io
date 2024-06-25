@@ -3,5 +3,15 @@
         "name": "Jordon Giusto",
         "photo": "photos/jordon.jpg",
         "description" : "Kid named jordon"
+    },
+    {
+        "name" : "Cole Giusto",
+        "photo" : "photos/cole.jpg",
+        "description" : "Kid named cole",
+        "links" : [
+            "https://cole.dwab.dev",
+            "https://www.linkedin.com/in/cole-giusto-01a601175/"
+        ]
+        
     }
 ]
