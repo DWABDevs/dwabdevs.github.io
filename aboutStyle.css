@@ -1,0 +1,14 @@
+#profilePic{
+    width: 15vw;
+    height: 15vw;
+    object-fit: cover;
+    border-radius: 100%;
+}
+#aboutContainer{
+    display: flex;
+    justify-content: left;
+    margin: auto;
+    width: fit-content;
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+
+}
