@@ -1,7 +1,7 @@
 
 
 async function showJson(){
-    let json = await fetch("./aboutData.json")
+    let json = await fetch("scripts/aboutData.json")
     let people = await json.json()
 
     let template = document.querySelector("#aboutContainer")
