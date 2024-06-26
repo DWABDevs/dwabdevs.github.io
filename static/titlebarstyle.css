@@ -1,0 +1,35 @@
+
+
+.titlebar{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    background-color: var(--titlebar-color);
+    font-size: calc(5px + 1.2vw);
+    justify-content: flex-end;
+    cursor: pointer;
+    user-select: none;
+}
+
+.titlebar a{
+    justify-content: center center;
+    padding: 1em;
+    color: white;
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+
+    text-decoration: none;
+}
+
+.titlebarTab{
+    float: right;
+    
+    
+}
+
+.titlebarTab:hover{
+    background-color: var(--titlebar-color-dark);
+}
+
+.logo{
+    margin-right: auto;
+}
