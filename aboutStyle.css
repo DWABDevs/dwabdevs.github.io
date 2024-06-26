@@ -38,6 +38,7 @@
     justify-content: left;
     width: fit-content;
     margin-bottom: 3em;
+    cursor: pointer;
 }
 #textContainer{
     margin: 1em;

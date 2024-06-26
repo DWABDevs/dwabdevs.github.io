@@ -15,7 +15,10 @@ async function showJson(){
         template.querySelector("#name").textContent = profile.name
         template.querySelector("#description").textContent = profile.description
         template.querySelector("#profilePic").src = profile.photo
+        if(profile.aboutLink != undefined)
+            template.addEventListener('click', ()=>window.location = profile.aboutLink)
         document.querySelector("#aboutParent").appendChild(template)
+
         template = template.cloneNode(true)
 
     }

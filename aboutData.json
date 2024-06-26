@@ -2,7 +2,14 @@
     {
         "name": "Jordon Giusto",
         "photo": "photos/jordon.jpg",
-        "description" : "Kid named jordon"
+        "description" : "Kid named jordon",
+        "aboutLink" : "/jordon.html",
+        "titles":[
+
+        ],
+        "links":[
+            {"text": "github", "href": ""}
+        ]
     },
     {
         "name" : "Cole Giusto",
