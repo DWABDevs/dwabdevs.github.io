@@ -50,7 +50,7 @@ for (let index = 0; index < aliases.pages.length; index++) {
         }
 
     }
-
+    root.removeWhitespace()
     fs.writeFile(`../static/${pageName}`, root.outerHTML, () => { })
 
 
