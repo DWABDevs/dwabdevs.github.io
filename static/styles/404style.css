@@ -1,4 +1,4 @@
-#404container {
+#container404 {
   width: 50%;
   margin: auto;
   font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
@@ -9,10 +9,10 @@
   text-align: center;
   justify-content: center;
 }
-#404number {
+#number404{
   font-size: 400%;
   font-weight: bolder;
 }
-#explanation{
+#explanation404{
     text-decoration: underline;
 }
