@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fs": "^0.0.1-security",
-    "jsdom": "^24.1.0"
+    "node-html-better-parser": "^1.4.4",
+    "node-html-parser": "^6.1.13"
   }
 }

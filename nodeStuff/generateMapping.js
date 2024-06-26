@@ -18,8 +18,8 @@ function readDirCallback(err, files){
 
 
 
-output.pages = fs.readdirSync("./pages")
-output.templates = fs.readdirSync("./templates")
+output.pages = fs.readdirSync("../pages")
+output.templates = fs.readdirSync("../templates")
 
 console.log(JSON.stringify(output))
 
