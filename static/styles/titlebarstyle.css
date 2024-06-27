@@ -40,6 +40,7 @@
     top:2em;
     width:100%;
     height: .1em;
+    border-radius: 100%;
 }
 
 .titlebarTab:hover{
