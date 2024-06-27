@@ -34,7 +34,7 @@ jobs:
       - name: Use Node.js 
         uses: actions/setup-node@v4
         with:
-          cache-dependency-path: '**/package-lock.json'
+          cache-dependency-path: 'nodeStuff/package-lock.json'
       - name: map
         working-directory: ./nodeStuff
         run: node generateMapping.js
