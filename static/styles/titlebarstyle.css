@@ -34,7 +34,7 @@
     font-size: 100%;
 }
 
-.titlebarTab.selected > a::before{
+a::before{
     content: "yo";
     display: block;
     position: relative;
