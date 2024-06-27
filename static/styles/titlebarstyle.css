@@ -35,6 +35,7 @@
 }
 
 .titlebarTab.selected > a::before{
+    content: "yo";
     display: block;
     position: relative;
     height: .1em;
