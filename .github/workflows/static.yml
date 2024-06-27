@@ -35,6 +35,9 @@ jobs:
         uses: actions/setup-node@v4
         with:
           cache-dependency-path: 'nodeStuff/package-lock.json'
+      - name: install dependencies
+        run: npm install
+        working-directory: nodeStuff
       - name: map
         working-directory: ./nodeStuff
         run: node generateMapping.js
