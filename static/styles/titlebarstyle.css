@@ -35,12 +35,18 @@
 }
 
 
+
 .underline{
     position: relative;
     top:2em;
-    width:100%;
+    width:calc(100% - 2em);
     height: .1em;
     border-radius: 100%;
+    display: none;
+}
+
+.selected > .underline{
+    display: block;
 }
 
 .titlebarTab:hover{
