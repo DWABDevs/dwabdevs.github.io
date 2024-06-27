@@ -13,9 +13,12 @@
   <script>
     tabs = document.querySelectorAll(".titebarTab")
 
+    console.log(window.location)
+    console.log('*')
     tabs.forEach(tab => {
         let a = tab.querySelector('a');
         if(a != undefined && a.href == window.location){
+            console.log(a.href)
             tab.classList.add("selected")
         }
     });
