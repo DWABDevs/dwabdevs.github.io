@@ -25,7 +25,7 @@
     float: right;
     border-left-style: solid;
     border-color: rgb(74, 74, 74);
-    border-left-width: 1px;
+    border-left-width: 0px;
     align-content: center;
     
 }
@@ -40,20 +40,22 @@
     margin: auto;
     position: relative;
     top: 0em;
-    width:calc(100% - 2em);
-    height: .1em;
+    width:0;
+    height: .08em;
     border-radius: .05em;
     background-color: azure;
-    display: none;
+    transition-duration: .01s;
 }
 
-.selected > .underline{
+.selected > .underline, .titlebarTab:hover .underline{
     display: block;
+    width:calc(100% - 2em);
+    transition-duration: .1s;
+    
 }
 
-.titlebarTab:hover{
-    background-color: var(--titlebar-color-dark);
-}
+
+
 
 .logo{
     margin-right: auto;
