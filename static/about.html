@@ -3,12 +3,11 @@
   rel="stylesheet"
 ></head><body><nav class="titlebar"><link rel="stylesheet" href="styles/titlebarstyle.css" ><a href="/" class="logo">dwab devs</a><div class="titlebarTab"><a href="/">home</a></div><div class="titlebarTab"><a href="about.html">about</a></div><div class="titlebarTab"><a href="https://sites.dwab.dev">projects</a></div><script> tabs = document.querySelectorAll(".titebarTab")
 
-    console.log(window.location)
-    console.log('*')
+    console.log(window.location.href)
     tabs.forEach(tab => {
         let a = tab.querySelector('a');
-        if(a != undefined && a.href == window.location){
-            console.log(a.href)
+        console.log(a.href)
+        if(a != undefined && a.href == window.location.href){
             tab.classList.add("selected")
         }
     });</script></nav><div id="about"><div id="header">About Us:</div><p>DWAB Devs is the creation of a group of friends who are looking to apply and shpwcase their programming, game development, and engineering skills. </p><div id="header">Members:</div><div id="aboutParent"><div id="aboutContainer"><img src="" alt="jordon" id="profilePic" ><div id="textContainer"><div id="name"></div><div id="description">kid named</div></div></div></div></div><script src="scripts/aboutRenderer.js"></script></body></html>

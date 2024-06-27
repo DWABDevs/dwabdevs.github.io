@@ -3,12 +3,11 @@
   rel="stylesheet"
 ></head><body><nav class="titlebar"><link rel="stylesheet" href="styles/titlebarstyle.css" ><a href="/" class="logo">dwab devs</a><div class="titlebarTab"><a href="/">home</a></div><div class="titlebarTab"><a href="about.html">about</a></div><div class="titlebarTab"><a href="https://sites.dwab.dev">projects</a></div><script> tabs = document.querySelectorAll(".titebarTab")
 
-    console.log(window.location)
-    console.log('*')
+    console.log(window.location.href)
     tabs.forEach(tab => {
         let a = tab.querySelector('a');
-        if(a != undefined && a.href == window.location){
-            console.log(a.href)
+        console.log(a.href)
+        if(a != undefined && a.href == window.location.href){
             tab.classList.add("selected")
         }
     });</script></nav><h1>About Jordon</h1></body></html>
