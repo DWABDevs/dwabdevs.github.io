@@ -34,7 +34,7 @@
     font-size: 100%;
 }
 
-.titlebarTab.selected > a ::before{
+.titlebarTab.selected > a::before{
     display: block;
     position: relative;
     height: .1em;
