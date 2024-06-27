@@ -1,4 +1,11 @@
 <!DOCTYPE html><html lang="en"><head><title>Dwab | Error 404</title><link rel="stylesheet" href="styles/404style.css"><meta charset="UTF-8" ><meta name="viewport" content="width=device-width, initial-scale=1.0" ><title>Dwab | About</title><link rel="stylesheet" href="styles/style.css" ><link rel="preconnect" href="https://fonts.googleapis.com" ><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin ><link 
   href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
   rel="stylesheet"
-></head><body><nav class="titlebar"><link rel="stylesheet" href="styles/titlebarstyle.css"><a href="/" class="logo">dwab devs</a><a href="/" class="titlebarTab">home</a><a href="about.html" class="titlebarTab">about</a><a href="https://sites.dwab.dev" class="titlebarTab">projects</a></nav><div id="container404"><div id="number404"> 404</div><div id="explaination404"> Page not found</div></div></body></html>
+></head><body><nav class="titlebar"><link rel="stylesheet" href="styles/titlebarstyle.css" ><a href="/" class="logo">dwab devs</a><div class="titlebarTab"><a href="/">home</a></div><div class="titlebarTab"><a href="about.html">about</a></div><div class="titlebarTab"><a href="https://sites.dwab.dev">projects</a></div><script> tabs = document.querySelectorAll(".titebarTab")
+
+    tabs.forEach(tab => {
+        let a = tab.querySelector('a');
+        if(a != undefined && a.href == window.location){
+            tab.classList.add("selected")
+        }
+    });</script></nav><div id="container404"><div id="number404"> 404</div><div id="explaination404"> Page not found</div></div></body></html>

@@ -26,7 +26,18 @@
     border-left-style: solid;
     border-color: rgb(74, 74, 74);
     border-left-width: 1px;
+    align-content: center;
     
+}
+
+.titlebarTab > a{
+    font-size: 100%;
+}
+
+.titlebarTab.selected > a{
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: azure;
 }
 
 .titlebarTab:hover{

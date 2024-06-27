@@ -1,7 +1,25 @@
 <nav class="titlebar">
-    <link rel="stylesheet" href="styles/titlebarstyle.css">
-    <a href="/" class="logo">dwab devs</a>
-    <a href="/" class="titlebarTab">home</a>
-    <a href="about.html" class="titlebarTab">about</a>
-    <a href="https://sites.dwab.dev" class="titlebarTab">projects</a>
+  <link rel="stylesheet" href="styles/titlebarstyle.css" />
+  <a href="/" class="logo">dwab devs</a>
+  <div class="titlebarTab">
+    <a href="/">home</a>
+  </div>
+  <div class="titlebarTab">
+    <a href="about.html">about</a>
+  </div>
+  <div class="titlebarTab">
+    <a href="https://sites.dwab.dev">projects</a>
+  </div>
+  <script>
+    tabs = document.querySelectorAll(".titebarTab")
+
+    tabs.forEach(tab => {
+        let a = tab.querySelector('a');
+        if(a != undefined && a.href == window.location){
+            tab.classList.add("selected")
+        }
+    });
+
+
+  </script>
 </nav>
