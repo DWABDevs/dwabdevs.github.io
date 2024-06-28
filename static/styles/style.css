@@ -6,7 +6,9 @@
     --titlebar-color-light: rgb(50, 50, 50);
     --titlebar-color-dark: rgb(28, 28, 28);
 }
-
+*{
+    font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+}
 
 body{
     padding: 0;
@@ -14,3 +16,4 @@ body{
     background-color: var(--background-color);
     
 }
+
