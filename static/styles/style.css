@@ -17,6 +17,12 @@ body{
     
 }
 
+h1{
+    font-size: 300%;
+    font-weight: normal;
+    margin-top: 1em;
+}
+
 div.maincontent{
     font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
     width: max(10em, 60%);
@@ -24,4 +30,5 @@ div.maincontent{
     
     font-size: min(3vw, 20px);
 }
+
 
