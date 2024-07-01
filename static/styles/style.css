@@ -28,7 +28,7 @@ div.maincontent{
     font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
     width: max(10em, 60%);
     margin: auto;
-    padding-top: 2em;
+    padding-top: 1.5em;
     font-size: min(3vw, 20px);
 }
 
