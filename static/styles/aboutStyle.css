@@ -25,7 +25,7 @@
 #aboutContainer{
     display: flex;
     justify-content: left;
-    width: fit-content;
+    width: 30em;
     margin-bottom: 3em;
     cursor: pointer;
 }
