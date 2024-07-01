@@ -21,5 +21,31 @@
             "https://www.linkedin.com/in/cole-giusto-01a601175/"
         ]
         
+    },
+    {
+        "name" : "Nicholas Hotelling",
+        "photo" : "photos/Nick.jfif",
+        "description" : "Kid named Nick",
+        "aboutLink": "/Nick",
+        "links" : [
+            "https://nick.dwab.dev",
+            "https://www.linkedin.com/in/nicholas-james-hotelling-066a9b132/"
+        ],
+        "titles":[
+            "Executive GPU Aquirier"
+        ]
+    },
+    {
+        "name" : "Adenine Lazofosky",
+        "photo" : "photos/Nick.jfif",
+        "description" : "Kid named Aidan",
+        "aboutLink": "/Aidan",
+        "links" : [
+            "https://aidan.dwab.dev",
+            "https://www.linkedin.com/in/nicholas-james-hotelling-066a9b132/"
+        ],
+        "titles":[
+            "Executive Story Pointer"
+        ]
     }
 ]
