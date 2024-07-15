@@ -5,7 +5,7 @@
     margin: 0;
     display: flex;
     background-color: var(--titlebar-color);
-    font-size:min(calc(5px + 1.4vw), 22px);
+    font-size:min(calc(10px + 1.6vw), 50px);
     justify-content: flex-end;
     cursor: pointer;
     user-select: none;
@@ -14,9 +14,8 @@
 .titlebar a{
     justify-content: center center;
     padding: 1em;
-    color: white;
     font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
-  
+    color: var(--titlebar-text-color);
 
     text-decoration: none;
 }
@@ -39,12 +38,12 @@
 .underline{
     margin: auto;
     position: relative;
-    top: 0em;
-    width:0;
-    height: .08em;
-    border-radius: .05em;
-    background-color: azure;
-    transition-duration: .01s;
+    top: -0.15em;
+    width: 0;
+    height: 0.1em;
+    border-radius: 0.05em;
+    background-color: var(--titlebar-text-color);
+    transition-duration: 0.01s;
 }
 
 .selected > .underline, .titlebarTab:hover .underline{
