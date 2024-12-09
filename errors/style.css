@@ -1,0 +1,118 @@
+
+
+:root{
+  --background-color: rgb(220, 220, 220);
+  --titlebar-color: rgb(36, 36, 36);
+  --titlebar-color-light: rgb(50, 50, 50);
+  --titlebar-color-dark: rgb(28, 28, 28);
+  --highlight-color: black;
+  --text-color: black;
+  --titlebar-text-color: azure;
+}
+*{
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+h1{
+  font-size: 300%;
+  font-weight: normal;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: var(--highlight-color);
+}
+
+div.maincontent{
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  width: max(10em, 70%);
+  margin: auto;
+  padding-top: 1.5em;
+  font-size: min(3vw, 20px);
+}
+
+#container404 {
+  width: 50%;
+  margin: auto;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  width: max(10em, 60%);
+  margin: auto;
+
+  font-size: min(3vw, 20px);
+  text-align: center;
+  justify-content: center;
+}
+#number404{
+  font-size: 400%;
+  font-weight: bolder;
+}
+#explanation404{
+    text-decoration: underline;
+}
+
+
+
+.titlebar{
+  width: 100%;
+  margin: 0;
+  display: flex;
+  background-color: var(--titlebar-color);
+  font-size:min(calc(10px + 2vw), 40px);
+  justify-content: flex-end;
+  cursor: pointer;
+  user-select: none;
+}
+
+.titlebar a{
+  justify-content: center center;
+  padding: 0.6em;
+  font-family: "Source Sans 3", Arial, Helvetica, sans-serif;
+  color: var(--titlebar-text-color);
+
+  text-decoration: none;
+}
+
+.titlebarTab{
+  float: right;
+  border-left-style: solid;
+  border-color: rgb(74, 74, 74);
+  border-left-width: 0px;
+  align-content: center;
+  
+}
+
+.titlebarTab > a{
+  font-size: 100%;
+}
+
+
+
+.underline{
+  margin: auto;
+  position: relative;
+  top: -0.15em;
+  width: 0;
+  height: 0.1em;
+  border-radius: 0.05em;
+  background-color: var(--titlebar-text-color);
+  transition-duration: 0.01s;
+}
+
+.selected > .underline, .titlebarTab:hover .underline{
+  display: block;
+  width:calc(100% - 1.2em);
+  transition-duration: .1s;
+  
+}
+
+
+
+
+.logo{
+  margin-right: auto;
+}
